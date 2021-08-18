@@ -1,0 +1,20 @@
+name: GlobalBoosters
+main: me.MuchDan.GlobalBoosters.GlobalBoosters
+author: MuchDan
+version: 0.0.0
+api-version: 1.16
+permission-message: "&c You don't have permission to do that!"
+softdepend:
+  - mcMMO
+  - Jobs
+
+commands:
+  GlobalBoosters:
+    permission: GlobalBoosters.admin
+    description: Reload GlobalBooster config.
+  Boosters:
+    permission: GlobalBoosters.GUI
+    description: Opens Booster GUI
+  ActivateBooster:
+    permission: GlobalBoosters.StartBooster
+    description: Starts a Global Booster.

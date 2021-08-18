@@ -1,0 +1,254 @@
+###########################################
+##  Inventory Configuration File
+##  When the user does the command /Boosters a GUI opens and contains this information.
+##
+##  Configuration File Design:
+##  Inventory Size is literally the size of the inventory
+##  Inventory Name is the name at the top of the inventory when opened.
+##
+##  Block Configuration Section:
+##  The Block configuration section is what blocks that will be displayed in the GUI.
+##  Example Block:
+##  9:              #This number is the position in the GUI that the block will appear.
+##    Material: IRON_BLOCK                          #Block type shown.
+##    Quantity: 1                                   #Quantity is the number of blocks shown
+##    DisplayName: "&cMinecraft Level 1 Booster"    #DISPLAY NAME MUST MATCH IN BOOSTERS.YML For it to be registered.
+##    Enchanted: true;                    #Enchanted gives the block a shiny effect.
+##    Lore:                               #Lore is everything that will be displayed under the block.
+##      - "&7========================"
+##      - "&7Price: &b$0.99 &7USD"
+##      - "&7Multiplier: &bx2"
+##      - "&7Booster Duration: &b30 Minutes"
+##      - "&7========================"
+InventorySize: 27
+InventoryName: "&bAvailable Boosters"
+
+onClickMessage: "&7Purchase a &bGlobal Booster &7from our server store!"
+WebsiteLink: "&7Server Store link: &b[]"
+
+Blocks:
+  9:
+    Material: IRON_BLOCK
+    Quantity: 1
+    DisplayName: "&cMinecraft Level 1 Booster"
+    Enchanted: true
+    Lore:
+      - "&7========================"
+      - "&7Price: &b$0.99 &7USD"
+      - "&7Multiplier: &bx2"
+      - "&7Booster Duration: &b30 Minutes"
+      - "&7========================"
+  10:
+    Material: GOLD_BLOCK
+    Quantity: 1
+    DisplayName: "&cMinecraft Level 2 Booster"
+    Enchanted: true
+    Lore:
+      - "&7========================"
+      - "&7Price: &b$4.99 &7USD"
+      - "&7Multiplier: &bx2"
+      - "&7Booster Duration: &b3 Hours"
+      - "&7========================"
+  11:
+    Material: DIAMOND_BLOCK
+    Quantity: 1
+    DisplayName: "&cMinecraft Level 3 Booster"
+    Enchanted: true
+    Lore:
+      - "&7========================"
+      - "&7Price: &b$8.99 &7USD"
+      - "&7Multiplier: &bx2"
+      - "&7Booster Duration: &b6 Hours"
+      - "&7========================"
+  12:
+    Material: IRON_BLOCK
+    Quantity: 1
+    DisplayName: "&cmcMMO Level 1 Booster"
+    Enchanted: true
+    Lore:
+      - "&7========================"
+      - "&7Price: &b$0.99 &7USD"
+      - "&7Multiplier: &bx2"
+      - "&7Booster Duration: &b30 Minutes"
+      - "&7========================"
+  13:
+    Material: GOLD_BLOCK
+    Quantity: 1
+    DisplayName: "&cmcMMO Level 2 Booster"
+    Enchanted: true
+    Lore:
+      - "&7========================"
+      - "&7Price: &b$4.99 &7USD"
+      - "&7Multiplier: &bx2"
+      - "&7Booster Duration: &b3 Hours"
+      - "&7========================"
+  14:
+    Material: DIAMOND_BLOCK
+    Quantity: 1
+    DisplayName: "&cmcMMO Level 3 Booster"
+    Enchanted: true
+    Lore:
+      - "&7========================"
+      - "&7Price: &b$8.99 &7USD"
+      - "&7Multiplier: &bx2"
+      - "&7Booster Duration: &b6 Hours"
+      - "&7========================"
+  15:
+    Material: IRON_BLOCK
+    Quantity: 1
+    DisplayName: "&cJobs Level 1 Booster"
+    Enchanted: true
+    Lore:
+      - "&7========================"
+      - "&7Price: &b$0.99 &7USD"
+      - "&7Multiplier: &bx2"
+      - "&7Booster Duration: &b30 Minutes"
+      - "&7========================"
+  16:
+    Material: GOLD_BLOCK
+    Quantity: 1
+    DisplayName: "&cJobs Level 2 Booster"
+    Enchanted: true
+    Lore:
+      - "&7========================"
+      - "&7Price: &b$4.99 &7USD"
+      - "&7Multiplier: &bx2"
+      - "&7Booster Duration: &b3 Hours"
+      - "&7========================"
+  17:
+    Material: DIAMOND_BLOCK
+    Quantity: 1
+    DisplayName: "&cJobs Level 3 Booster"
+    Enchanted: true
+    Lore:
+      - "&7========================"
+      - "&7Price: &b$8.99 &7USD"
+      - "&7Multiplier: &bx2"
+      - "&7Booster Duration: &b6 Hours"
+      - "&7========================"
+  0:
+    Material: BLACK_STAINED_GLASS_PANE
+    Quantity: 1
+    DisplayName: " "
+    Enchanted: false
+    Lore:
+      -
+  1:
+    Material: BLACK_STAINED_GLASS_PANE
+    Quantity: 1
+    DisplayName: " "
+    Enchanted: false
+    Lore:
+      -
+  2:
+    Material: BLACK_STAINED_GLASS_PANE
+    Quantity: 1
+    DisplayName: " "
+    Enchanted: false
+    Lore:
+      -
+  3:
+    Material: BLACK_STAINED_GLASS_PANE
+    Quantity: 1
+    DisplayName: " "
+    Enchanted: false
+    Lore:
+      -
+  4:
+    Material: BLACK_STAINED_GLASS_PANE
+    Quantity: 1
+    DisplayName: " "
+    Enchanted: false
+    Lore:
+      -
+  5:
+    Material: BLACK_STAINED_GLASS_PANE
+    Quantity: 1
+    DisplayName: " "
+    Enchanted: false
+    Lore:
+      -
+  6:
+    Material: BLACK_STAINED_GLASS_PANE
+    Quantity: 1
+    DisplayName: " "
+    Enchanted: false
+    Lore:
+      -
+  7:
+    Material: BLACK_STAINED_GLASS_PANE
+    Quantity: 1
+    DisplayName: " "
+    Enchanted: false
+    Lore:
+      -
+  8:
+    Material: BLACK_STAINED_GLASS_PANE
+    Quantity: 1
+    DisplayName: " "
+    Enchanted: false
+    Lore:
+      -
+  18:
+    Material: BLACK_STAINED_GLASS_PANE
+    Quantity: 1
+    DisplayName: " "
+    Enchanted: false
+    Lore:
+      -
+  19:
+    Material: BLACK_STAINED_GLASS_PANE
+    Quantity: 1
+    DisplayName: " "
+    Enchanted: false
+    Lore:
+      -
+  20:
+    Material: BLACK_STAINED_GLASS_PANE
+    Quantity: 1
+    DisplayName: " "
+    Enchanted: false
+    Lore:
+      -
+  21:
+    Material: BLACK_STAINED_GLASS_PANE
+    Quantity: 1
+    DisplayName: " "
+    Enchanted: false
+    Lore:
+      -
+  22:
+    Material: BLACK_STAINED_GLASS_PANE
+    Quantity: 1
+    DisplayName: " "
+    Enchanted: false
+    Lore:
+      -
+  23:
+    Material: BLACK_STAINED_GLASS_PANE
+    Quantity: 1
+    DisplayName: " "
+    Enchanted: false
+    Lore:
+      -
+  24:
+    Material: BLACK_STAINED_GLASS_PANE
+    Quantity: 1
+    DisplayName: " "
+    Enchanted: false
+    Lore:
+      -
+  25:
+    Material: BLACK_STAINED_GLASS_PANE
+    Quantity: 1
+    DisplayName: " "
+    Enchanted: false
+    Lore:
+      -
+  26:
+    Material: BLACK_STAINED_GLASS_PANE
+    Quantity: 1
+    DisplayName: " "
+    Enchanted: false
+    Lore:
+      -
